@@ -1,0 +1,2 @@
+# Info2180-Lab6
+AJAX
