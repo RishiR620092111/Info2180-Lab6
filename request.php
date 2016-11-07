@@ -17,7 +17,6 @@ $definition = [
 print "<h3>" . strtoupper($query) . "</h3>";
 print "<p>" . $definition[$query] . "</p>";
 
-<?php
 header("Content-type: text/xml");
 print("");
 $string = <<<XML
