@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>Lab 6 Web Design - Ajax></title>
+		<script src="AJAX.js" type="text/javascript"></script>
+	</head>
+    <body>
+        <div id="header">Web Terms Dictionary</div><br>
+        <div class="container">
+            <div id="searchArea">
+                <p>Look up the definition of a word e.g PHP, AJAX, HTML, etc.</p>
+                <form onsubmit="javascript:loadDefinitions();return false;">
+                    <input type="text" id="queryTxtBox" autofocus>
+                    <input type="button" id="btnSearch" value="Search" onclick="loadDefinitions()">
+                </form><br>
+            </div>
+            <div id="result"></div>
+        </div>
+    </body>
+</html>
